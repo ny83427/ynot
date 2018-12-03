@@ -39,5 +39,22 @@ I open source this program here for those who have interest of ABAP programming,
 ## Why did you call this little program 'YNOT'?
 According to SAP naming convention, customized program name must start with 'Y' or 'Z'. And I always remember a colleague who said "Why Not?" hundreds of times every day, which made me laugh each time like a fool. To obey the naming convention and honor this remarkable figure I called my program **YNOT**, it also indicates that it's a utility program about SAP Note.
 
+## License
+YNOT is released under the [Apache 2.0 license](license.txt).
 
+```
+Copyright 2018 Meng(Nathanael) Yang.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+```
  
