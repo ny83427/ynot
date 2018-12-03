@@ -2,11 +2,13 @@
 
 ## How to use it?
 The easiest way to play around with YNOT is to create a program called YNOT, then copy code in _**YNOT_ALL_IN_ONE.abap**_ to it, compile and run, you would see screen like this(I choose classic theme for SAP GUI, which is not that fancy).
+
 ![](images/ynot-ui.png)
 
 You can generate documentation based on a Transport Request, it will also download the request as a zip file, so that you can also choose to upload to another system. If you want to support a new object type, you can click radiobox of "Code Helpet For New Object Type" to generate skeletion of the subroutine you need to implement yourself.
 
 Another way is using [**ZSAPLink**](https://github.com/sapmentors/SAPlink), the popular code exchange tool to import _**NUGG_YNOT.nugg**_, it's more friendly for navigation within all the modules and subroutines within.
+
 ![](images/ynot-structure.png)
 
 _**YNOT_ALL_IN_ONE.abap**_ is generated after each major release, it simply combines dozens of routines together to one single file, for the convenience of those who don't want get their hands dirty with ZSAPLink.
@@ -23,7 +25,9 @@ And it was done after dozens of sleepless night, which I enjoyed much. It worked
 ## Why do you open source here? Will there be some legal issues?
 It's a sad story, man. After I finished this program and shared to my teammates, they thought it was kind of good and recommend me to apply CIP(Continuous Improvement) internally.
 So I did after my boss reviewed and gave positive feedback. However, when I talked with the CIP committee I found that there is a far better program called **UDO** existing already.
+
 ![](images/udo.png)
+
 Compared to the features of UDO, YNOT is too simple, sometimes naive...😭I learned a lot from UDO implementation as it chose to generate code, rather than documentation, which reduced workload of both customers and developers. There are some tricks and ideas I got to know for the first time when I read UDO's code carefully, and it was a enjoyable read.
 
 Then I chose to be an evangelist of UDO and buried YNOT. At that time I recommend UDO to developers I know who are struggling with Note delivery work. I didn't realized that I became the Ambassador of UDO at SAP Labs Shanghai FGI team. And I was invited to give advice on certain Note delivery work also.
