@@ -8,6 +8,7 @@ You can generate documentation based on a Transport Request, it will also downlo
 
 Another way is using [**ZSAPLink**](https://github.com/sapmentors/SAPlink), the popular code exchange tool to import _**NUGG_YNOT.nugg**_, it's more friendly for navigation within all the modules and subroutines within.
 ![](images/ynot-structure.png)
+
 _**YNOT_ALL_IN_ONE.abap**_ is generated after each major release, it simply combines dozens of routines together to one single file, for the convenience of those who don't want get their hands dirty with ZSAPLink.
 
 ## Why did you create it?
